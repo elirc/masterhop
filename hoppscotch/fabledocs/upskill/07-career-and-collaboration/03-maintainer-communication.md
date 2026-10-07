@@ -29,7 +29,7 @@ Minimal repro beats prose; a *labeled* suspicion beats a confident wrong diagnos
 
 ## Proposing a feature
 
-Lead with the problem, not the solution: user story → evidence it's common (issues, forum links) → sketch of a fit-the-codebase approach ([M3's cap proposal](02-mid-level-feature-tickets.md#m3-cap-and-validate-mock-server-delayinms) is the model) → offer to implement behind a flag. Accept "no" gracefully — a rejected proposal with a good conversation still builds the relationship (and is itself a STAR story about disagreement).
+Lead with the problem, not the solution: user story → evidence it's common (issues, forum links) → sketch of a fit-the-codebase approach ([M3's cap proposal](../06-contribution-practice/02-mid-level-feature-tickets.md#m3-cap-and-validate-mock-server-delayinms) is the model) → offer to implement behind a flag. Accept "no" gracefully — a rejected proposal with a good conversation still builds the relationship (and is itself a STAR story about disagreement).
 
 ## Responding to review
 
@@ -44,4 +44,4 @@ Lead with the problem, not the solution: user story → evidence it's common (is
 3. Cost it — "your way adds a migration; mine adds a flag; both work" reframes from taste to tradeoff.
 4. Concede or escalate *explicitly* — "not blocking for me, your call" or "I think this risks data loss; can we get a second maintainer?" Both are wins; simmering is the only loss.
 
-Interview mapping: "tell me about disagreeing with a senior engineer" wants exactly ladder steps 1–3 with a concrete artifact. Build one by actually doing [Ticket 16](01-good-first-tickets.md#ticket-16-improve-the-verifyadmin-response-contract) (a design conversation, not a code PR) against upstream.
+Interview mapping: "tell me about disagreeing with a senior engineer" wants exactly ladder steps 1–3 with a concrete artifact. Build one by actually doing [Ticket 16](../06-contribution-practice/01-good-first-tickets.md#ticket-16-improve-the-verifyadmin-response-contract) (a design conversation, not a code PR) against upstream.

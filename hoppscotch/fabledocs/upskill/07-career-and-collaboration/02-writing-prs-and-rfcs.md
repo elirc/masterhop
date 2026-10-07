@@ -33,7 +33,7 @@ The "How tested" section is where junior PRs die. "Tests pass" is not testing ev
 
 ## When to RFC instead of PR
 
-RFC first when any of: touches a contract (GraphQL schema, CLI flags, stored formats, pubsub topics); changes a security posture; introduces infrastructure (Redis, queues); spans >1 package in behavior (not just types). In this repo's terms: [P1/P5/P6](03-senior-build-projects.md) are RFC-first; [Ticket 3's ordering fix](01-good-first-tickets.md#ticket-3-reorder-the-expiry-check-in-magic-link-verification) is issue-first; a test addition is PR-only.
+RFC first when any of: touches a contract (GraphQL schema, CLI flags, stored formats, pubsub topics); changes a security posture; introduces infrastructure (Redis, queues); spans >1 package in behavior (not just types). In this repo's terms: [P1/P5/P6](../06-contribution-practice/03-senior-build-projects.md) are RFC-first; [Ticket 3's ordering fix](../06-contribution-practice/01-good-first-tickets.md#ticket-3-reorder-the-expiry-check-in-magic-link-verification) is issue-first; a test addition is PR-only.
 
 ## The RFC template (tailored to this repo)
 
@@ -61,6 +61,6 @@ How we know it works; how we know it broke (observability!).
 
 ## Judgment calls that mark seniority
 
-- Small PRs are a *courtesy with compound interest* — the strangler sequencing in [P5](03-senior-build-projects.md#p5-shared-treeordering-library-for-userteam-collections--3-4-weeks) exists for reviewers, not for git.
+- Small PRs are a *courtesy with compound interest* — the strangler sequencing in [P5](../06-contribution-practice/03-senior-build-projects.md#p5-shared-treeordering-library-for-userteam-collections--3-4-weeks) exists for reviewers, not for git.
 - Never mix a rename/format sweep with a behavior change (the diff hides the bug).
 - If the PR needs a paragraph of context per file, it needed an RFC; write it retroactively as the PR description rather than making reviewers reverse-engineer.

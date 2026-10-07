@@ -2,6 +2,8 @@
 
 Running log of what was inspected while authoring this curriculum. Anchors in the curriculum were confirmed against these reads. Date: 2026-07-09.
 
+> **Status note (2026-10-06, frozen record).** The tables below record the 2026-07-09 pass and are kept as written. A static re-check on 2026-10-06 (no installs, servers or tests) found: every line count in the "Files read" table still matches (schema 342, `auth.service.ts` 392, `auth.controller.ts` 230, guard 44, `pubsub.service.ts` 27, mock-server controller 194, `network.ts` 80, `kernel-interceptor.service.ts` 173, CLI `test.ts` 114); root `package.json` is still version 3.0.1 on `pnpm@10.33.2`; suspicions 2 and 4 below were re-read and still hold (provider account created before the expiry check; `PubSubService` only ever constructs the local `graphql-subscriptions` PubSub). Five links in `07-career-and-collaboration/` that pointed at `06-contribution-practice/` files without the directory prefix were repaired. The "no own `.git`" row is superseded: the clone now has its own repository (a single snapshot commit, so still no upstream history).
+
 ## Method
 
 - Static reading only. **No commands that mutate state were run.** No dev server, DB, or test suite was executed (Windows host, no local Postgres provisioned for this repo). All run/test commands in the curriculum are marked **inferred** from `package.json` scripts and CI config unless stated otherwise.
